@@ -78,7 +78,7 @@ public class InstanceUploaderTask extends AsyncTask<Long, Integer, InstanceUploa
     private static final String URL_PATH_SEP = "/";
 
     // based on http://www.sqlite.org/limits.html
-    private static final int SQLITE_MAX_VARIABLE_NUMBER = 999;
+    private static final int SQLITE_MAX_VARIABLE_NUMBER = Integer.MAX_VALUE;
 
     private InstanceUploaderListener mStateListener;
 
